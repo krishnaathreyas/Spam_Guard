@@ -1,0 +1,46 @@
+name: spam_guard
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.11.0
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.0.15
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^17.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+dependency_overrides:
+  camera_android: 0.10.10+11
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/tflite/tinybert_fp16.tflite
+    - assets/tokenizer/vocab.txt
+    - assets/icon/app_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
