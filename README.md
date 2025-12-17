@@ -129,11 +129,11 @@ dataset = dataset.train_test_split(
 ## 👨‍💻 Author
 
 **Krishna**  
-Independent Developer  
+AIML Developer  
 Focused on privacy-preserving AI and on-device intelligence
 
 ---
 
-## ⭐ If you like this project
+## If you like this project
 
-Give it a ⭐ on GitHub — it really helps!
+Give it a ⭐ on GitHub 
